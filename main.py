@@ -84,7 +84,6 @@ class AppDemo(QWidget):
         width = event.size().width()
         height = event.size().height()
         self.photoViewer.setPixmap(self.photoViewer.image, width, height)
-
 # Cria a aplicação e a janela principal
 app = QApplication(sys.argv)
 demo = AppDemo()
